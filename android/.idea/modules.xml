@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPICONGAME.iml" filepath="$PROJECT_DIR$/.idea/modules/SPICONGAME.iml" group="SPICONGAME" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="SPICONGAME/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-246135763/expo-app-loader-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-246135763/expo-app-loader-provider.iml" group="SPICONGAME/expo-app-loader-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1517668413/expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/1517668413/expo-constants.iml" group="SPICONGAME/expo-constants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1898507790/expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/1898507790/expo-file-system.iml" group="SPICONGAME/expo-file-system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/696081761/expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/696081761/expo-font.iml" group="SPICONGAME/expo-font" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1157887695/expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1157887695/expo-keep-awake.iml" group="SPICONGAME/expo-keep-awake" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1217388474/expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1217388474/expo-linear-gradient.iml" group="SPICONGAME/expo-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1791196729/expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/-1791196729/expo-location.iml" group="SPICONGAME/expo-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1422542094/expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-1422542094/expo-permissions.iml" group="SPICONGAME/expo-permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1845215330/expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/-1845215330/expo-sqlite.iml" group="SPICONGAME/expo-sqlite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1599058205/expo-web-browser.iml" filepath="$PROJECT_DIR$/.idea/modules/1599058205/expo-web-browser.iml" group="SPICONGAME/expo-web-browser" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-783486753/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-783486753/react-native-fbsdk.iml" group="SPICONGAME/react-native-fbsdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-860023705/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-860023705/react-native-gesture-handler.iml" group="SPICONGAME/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1037556395/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1037556395/react-native-reanimated.iml" group="SPICONGAME/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/335848232/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/335848232/react-native-screens.iml" group="SPICONGAME/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-405209190/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-405209190/react-native-webview.iml" group="SPICONGAME/react-native-webview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2023474096/unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/2023474096/unimodules-barcode-scanner-interface.iml" group="SPICONGAME/unimodules-barcode-scanner-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1745391522/unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1745391522/unimodules-camera-interface.iml" group="SPICONGAME/unimodules-camera-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/337791502/unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/337791502/unimodules-constants-interface.iml" group="SPICONGAME/unimodules-constants-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/862818720/unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/862818720/unimodules-core.iml" group="SPICONGAME/unimodules-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1615734603/unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1615734603/unimodules-face-detector-interface.iml" group="SPICONGAME/unimodules-face-detector-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/965155167/unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/965155167/unimodules-file-system-interface.iml" group="SPICONGAME/unimodules-file-system-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1943406008/unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1943406008/unimodules-font-interface.iml" group="SPICONGAME/unimodules-font-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1424636866/unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1424636866/unimodules-image-loader-interface.iml" group="SPICONGAME/unimodules-image-loader-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/783554883/unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/783554883/unimodules-permissions-interface.iml" group="SPICONGAME/unimodules-permissions-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2019331496/unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/2019331496/unimodules-react-native-adapter.iml" group="SPICONGAME/unimodules-react-native-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/873039608/unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/873039608/unimodules-sensors-interface.iml" group="SPICONGAME/unimodules-sensors-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1120561886/unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1120561886/unimodules-task-manager-interface.iml" group="SPICONGAME/unimodules-task-manager-interface" />
+    </modules>
+  </component>
+</project>

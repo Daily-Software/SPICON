@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522806099326",
+    "firebase_url": "https://io-dailysoftware-sporttrivia.firebaseio.com",
+    "project_id": "io-dailysoftware-sporttrivia",
+    "storage_bucket": "io-dailysoftware-sporttrivia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522806099326:android:356d4eb648750780ec472f",
+        "android_client_info": {
+          "package_name": "io.dailysoftware.sporttrivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522806099326-5hefepobjmtdh0d179fa6ngosskr5tkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYl2kGLzIb4yLgTsMVMP2gzyTPgJ1zeP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522806099326-5hefepobjmtdh0d179fa6ngosskr5tkq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "522806099326-tjmcevt92bq2lnhbr2doto3pl20eojjk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.dailysoftware.sporttrivia",
+                "app_store_id": "io.dailysoftware.sporttrivia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

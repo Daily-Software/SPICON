@@ -1,0 +1,21 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# macOS
+.DS_Store
+
+_ios-builds/*
+
+android/gradle/wrapper/dists/*
+android/app/build/*
+android/gradle/caches/*
+android/app/debug/*

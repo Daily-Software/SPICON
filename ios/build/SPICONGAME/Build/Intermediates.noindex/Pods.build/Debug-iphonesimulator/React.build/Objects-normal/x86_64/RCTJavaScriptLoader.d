@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Target\ Support\ Files/React/React-prefix.pch \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/ReactCommon/cxxreact/JSBundleType.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Folly/folly/Portability.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Folly/folly/CPortability.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Private/yoga/YGValue.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/node_modules/react-native/React/Base/RCTPerformanceLogger.h

@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/SPICONGAME/AppDelegate.m \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/SPICONGAME/AppDelegate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMReactNativeAdapter/UMModuleRegistryAdapter.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTBridgeModule.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTDefines.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/RCTInspectorDevServerHelper.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/RCTPackagerConnection.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMModuleRegistryProvider.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMModuleRegistry.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMInternalModule.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMDefines.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMExportedModule.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMViewManager.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMModuleRegistryDelegate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMSingletonModule.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTBridgeDelegate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMCore/UMAppDelegateWrapper.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTBundleURLProvider.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTRootView.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTBridge.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTFrameUpdate.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/React/React/RCTInvalidating.h \
+  /Users/beauxb/www/dailysoftware.io/SPICONGAME.1.0.0/ios/Pods/Headers/Public/UMReactNativeAdapter/UMNativeModulesProxy.h

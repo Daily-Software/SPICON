@@ -1,0 +1,353 @@
+2020-06-10T01:04:27.999-0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxMetaspaceSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2020-06-10T01:04:28.106-0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=cbd1d4e4-abe4-4012-9ab5-dbc6055dee85,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/daemon,pid=14627,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2020-06-10T01:04:28.131-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun1
+2020-06-10T01:04:28.131-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.132-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:5b50:5ee:cde1:18ea%utun1
+2020-06-10T01:04:28.132-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun0
+2020-06-10T01:04:28.133-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.135-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:8804:f3b1:7a0b:d78d%utun0
+2020-06-10T01:04:28.135-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface llw0
+2020-06-10T01:04:28.136-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.136-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f8ff:4cff:fea9:85ba%llw0
+2020-06-10T01:04:28.136-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface awdl0
+2020-06-10T01:04:28.137-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.137-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f8ff:4cff:fea9:85ba%awdl0
+2020-06-10T01:04:28.137-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en6
+2020-06-10T01:04:28.137-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.138-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:aede:48ff:fe00:1122%en6
+2020-06-10T01:04:28.139-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en0
+2020-06-10T01:04:28.139-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-06-10T01:04:28.140-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2606:6000:67cd:6300:0:0:0:1%en0
+2020-06-10T01:04:28.140-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2606:6000:67cd:6300:c121:429:7ffd:bfe1%en0
+2020-06-10T01:04:28.141-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2606:6000:67cd:6300:460:b039:79bb:ef37%en0
+2020-06-10T01:04:28.141-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:1812:d9e8:2fd0:792%en0
+2020-06-10T01:04:28.142-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.19
+2020-06-10T01:04:28.142-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo0
+2020-06-10T01:04:28.142-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2020-06-10T01:04:28.142-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+2020-06-10T01:04:28.143-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo0
+2020-06-10T01:04:28.143-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2020-06-10T01:04:28.145-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]].
+2020-06-10T01:04:28.149-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Wed Jun 10 01:04:28 PDT 2020, with address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:04:28.150-0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:04:28.150-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=cbd1d4e4-abe4-4012-9ab5-dbc6055dee85,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/daemon,pid=14627,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2020-06-10T01:04:28.151-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=cbd1d4e4-abe4-4012-9ab5-dbc6055dee85,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/daemon,pid=14627,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2020-06-10T01:04:28.162-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:04:28.165-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:04:28.169-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:04:28.171-0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2020-06-10T01:04:28.174-0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2020-06-10T01:04:28.180-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2020-06-10T01:04:28.182-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:52403 to /127.0.0.1:52402.
+2020-06-10T01:04:28.182-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2020-06-10T01:04:28.183-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-06-10T01:04:28.242-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Build
+2020-06-10T01:04:28.243-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}
+2020-06-10T01:04:28.244-0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}.
+2020-06-10T01:04:28.244-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android} with connection: socket connection from /127.0.0.1:52402 to /127.0.0.1:52403.
+2020-06-10T01:04:28.246-0700 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52402 to /127.0.0.1:52403] after 0.0 minutes of idle
+2020-06-10T01:04:28.246-0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:04:28.247-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:04:28.247-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:04:28.248-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:04:28.249-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:04:28.249-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2020-06-10T01:04:28.250-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-06-10T01:04:28.250-0700 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}. Dispatching build started information...
+2020-06-10T01:04:28.251-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@5ded3878
+2020-06-10T01:04:28.252-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.CloseInput
+2020-06-10T01:04:28.253-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {IRBRC=/Users/beauxb/.rvm/rubies/ruby-2.4.2/.irbrc, PATH=/Users/beauxb/.rvm/gems/ruby-2.4.2/bin:/Users/beauxb/.rvm/gems/ruby-2.4.2@global/bin:/Users/beauxb/.rvm/rubies/ruby-2.4.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Users/beauxb/.rvm/bin, _system_arch=x86_64, rvm_bin_path=/Users/beauxb/.rvm/bin, rvm_prefix=/Users/beauxb, COMMAND_MODE=unix2003, VERSIONER_PYTHON_VERSION=2.7, LOGNAME=beauxb, rvm_version=1.29.3 (latest), XPC_SERVICE_NAME=com.google.android.studio.21588, SHELL=/bin/zsh, _system_type=Darwin, MY_RUBY_HOME=/Users/beauxb/.rvm/rubies/ruby-2.4.2, OLDPWD=/Applications/Android Studio.app/Contents/bin, SECURITYSESSIONID=186ab, _system_version=10.15, USER=beauxb, GEM_HOME=/Users/beauxb/.rvm/gems/ruby-2.4.2, rvm_path=/Users/beauxb/.rvm, TMPDIR=/var/folders/_k/lwts8gpx0x54qhf9xqvbwlp80000gp/T/, LaunchInstanceID=9EB2517D-0973-4B17-97D6-D82DA6BBAB92, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.jHookmMt5d/Listeners, RUBY_VERSION=ruby-2.4.2, GEM_PATH=/Users/beauxb/.rvm/gems/ruby-2.4.2:/Users/beauxb/.rvm/gems/ruby-2.4.2@global, XPC_FLAGS=0x0, _system_name=OSX, __CF_USER_TEXT_ENCODING=0x1F6:0x0:0x0, LC_CTYPE=en_US.UTF-8, HOME=/Users/beauxb}
+2020-06-10T01:04:28.253-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@512dfd7
+2020-06-10T01:04:28.257-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2020-06-10T01:04:28.257-0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14627). The daemon log file: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/daemon/6.1.1/daemon-14627.out.log
+2020-06-10T01:04:28.258-0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 477.6 MB]
+2020-06-10T01:04:28.259-0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2020-06-10T01:04:28.260-0700 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2020-06-10T01:04:28.264-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2020-06-10T01:04:28.264-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=cbd1d4e4-abe4-4012-9ab5-dbc6055dee85,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/daemon,pid=14627,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+[33mInstalling unimodules:[0m
+ [32munimodules-core[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/@unimodules/core[0m
+ [32munimodules-react-native-adapter[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/@unimodules/react-native-adapter[0m
+ [32mexpo-app-loader-provider[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-app-loader-provider[0m
+ [32mexpo-constants[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-constants[0m
+ [32mexpo-file-system[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-file-system[0m
+ [32mexpo-font[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-font[0m
+ [32mexpo-keep-awake[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-keep-awake[0m
+ [32mexpo-linear-gradient[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-linear-gradient[0m
+ [32mexpo-location[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-location[0m
+ [32mexpo-permissions[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-permissions[0m
+ [32mexpo-sqlite[33m@[31m7.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-sqlite[0m
+ [32mexpo-web-browser[33m@[31m7.0.1[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-web-browser[0m
+ [32munimodules-barcode-scanner-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-barcode-scanner-interface[0m
+ [32munimodules-camera-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-camera-interface[0m
+ [32munimodules-constants-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-constants-interface[0m
+ [32munimodules-face-detector-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-face-detector-interface[0m
+ [32munimodules-file-system-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-file-system-interface[0m
+ [32munimodules-font-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-font-interface[0m
+ [32munimodules-image-loader-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-image-loader-interface[0m
+ [32munimodules-permissions-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-permissions-interface[0m
+ [32munimodules-sensors-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-sensors-interface[0m
+ [32munimodules-task-manager-interface[33m@[31m4.0.0[0m from [35m/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/unimodules-task-manager-interface[0m
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-file-system/android/src/main/AndroidManifest.xml:10:9-21:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:10 to replace other declarations but no other declaration present
+/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/app/src/main/AndroidManifest.xml:18:9-27:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-app-loader-provider/android/src/main/java/expo/loaders/provider/AppLoaderProvider.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/@unimodules/react-native-adapter/android/src/main/java/org/unimodules/adapters/react/services/UIManagerModuleWrapper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-constants/android/src/main/java/expo/modules/constants/ConstantsService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-location/android/src/main/java/expo/modules/location/taskConsumers/GeofencingTaskConsumer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-sqlite/android/src/main/java/expo/modules/sqlite/SQLiteModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+warning: the transform cache was reset.
+Loading dependency graph, done.
+info Writing bundle output to:, /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/app/build/generated/assets/react/release/index.android.bundle
+info Done writing bundle output
+info Copying 27 asset files
+info Done copying assets
+/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-file-system/android/src/main/AndroidManifest.xml:10:9-21:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:10 to replace other declarations but no other declaration present
+/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/app/src/main/AndroidManifest.xml:18:9-27:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
+WARNING: Compatible side by side NDK version was not found. Default is 21.0.6113669.
+Compatible side by side NDK version was not found. Default is 21.0.6113669.
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libfb.so, libfolly_json.so, libglog.so, libglog_init.so, libimagepipeline.so, libjsc.so, libjscexecutor.so, libjsinspector.so, libreactnativejni.so, libyoga.so.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/react-native-webview/android/src/main/java/com/reactnativecommunity/webview/RNCWebViewManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-app-loader-provider/android/src/main/java/expo/loaders/provider/AppLoaderProvider.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-constants/android/src/main/java/expo/modules/constants/ConstantsService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/@unimodules/react-native-adapter/android/src/main/java/org/unimodules/adapters/react/services/UIManagerModuleWrapper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-location/android/src/main/java/expo/modules/location/taskConsumers/GeofencingTaskConsumer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/node_modules/expo-sqlite/android/src/main/java/expo/modules/sqlite/SQLiteModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libfb.so, libfolly_json.so, libglog.so, libglog_init.so, libimagepipeline.so, libjsc.so, libjscexecutor.so, libjsinspector.so, libreactnativejni.so, libyoga.so.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 8m 19s
+944 actionable tasks: 944 executed
+2020-06-10T01:12:46.678-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2020-06-10T01:12:46.688-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-06-10T01:12:46.689-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52402 to /127.0.0.1:52403]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3965b955 with state Busy
+2020-06-10T01:12:46.689-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52402 to /127.0.0.1:52403]
+2020-06-10T01:12:46.690-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2020-06-10T01:12:46.690-0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:12:46.690-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:12:46.693-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:12:46.693-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:46.695-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:12:46.696-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-06-10T01:12:46.696-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@14fe0ff4]
+2020-06-10T01:12:46.697-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@14fe0ff4]
+2020-06-10T01:12:46.732-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=58bb01c6-6cf8-42c2-aafe-270778ef59df, currentDir=/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android}
+2020-06-10T01:12:46.733-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Finished
+2020-06-10T01:12:46.734-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@578d96d0
+2020-06-10T01:12:46.734-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@578d96d0
+2020-06-10T01:12:46.734-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+2020-06-10T01:12:46.735-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2020-06-10T01:12:46.735-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received null
+2020-06-10T01:12:46.735-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received end-of-input from client.
+2020-06-10T01:12:46.737-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+2020-06-10T01:12:47.608-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on jars (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/jars-3) requested by another process - releasing lock.
+2020-06-10T01:12:47.608-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/jars-3)
+2020-06-10T01:12:47.608-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/jars-3).
+2020-06-10T01:12:47.608-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -7037859884188766282.
+2020-06-10T01:12:47.609-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -7037859884188766282.
+2020-06-10T01:12:47.610-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on file hash cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes) requested by another process - releasing lock.
+2020-06-10T01:12:47.610-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes)
+2020-06-10T01:12:47.610-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes/fileHashes.bin)
+2020-06-10T01:12:47.610-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes/resourceHashesCache.bin)
+2020-06-10T01:12:47.611-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes).
+2020-06-10T01:12:47.611-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 5801916737961523331.
+2020-06-10T01:12:47.611-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 5801916737961523331.
+2020-06-10T01:12:47.614-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on journal cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/journal-1) requested by another process - releasing lock.
+2020-06-10T01:12:47.614-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/journal-1)
+2020-06-10T01:12:47.614-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/journal-1/file-access.bin)
+2020-06-10T01:12:47.614-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/journal-1).
+2020-06-10T01:12:47.615-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 1275282433090361730.
+2020-06-10T01:12:47.615-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 1275282433090361730.
+2020-06-10T01:12:48.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:12:48.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:48.189-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:12:48.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:12:48.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:48.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:12:52.352-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on artifact cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/modules-2) requested by another process - releasing lock.
+2020-06-10T01:12:52.353-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/modules-2)
+2020-06-10T01:12:52.353-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/modules-2/metadata-2.95/module-artifact.bin)
+2020-06-10T01:12:52.353-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/modules-2).
+2020-06-10T01:12:52.353-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -1148333657582497061.
+2020-06-10T01:12:52.354-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -1148333657582497061.
+2020-06-10T01:12:58.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:12:58.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:58.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:12:58.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:12:58.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:58.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:12:58.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:12:58.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:12:58.189-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:01.288-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on file content cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileContent) requested by another process - releasing lock.
+2020-06-10T01:13:01.288-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileContent)
+2020-06-10T01:13:01.289-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileContent).
+2020-06-10T01:13:01.289-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -987756165878509793.
+2020-06-10T01:13:01.290-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -987756165878509793.
+2020-06-10T01:13:02.783-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on Artifact transforms cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/transforms-2) requested by another process - releasing lock.
+2020-06-10T01:13:02.783-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Artifact transforms cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/transforms-2)
+2020-06-10T01:13:02.783-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Artifact transforms cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/transforms-2).
+2020-06-10T01:13:02.786-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 8532108171142085565.
+2020-06-10T01:13:02.786-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 8532108171142085565.
+2020-06-10T01:13:02.790-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on execution history cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/executionHistory) requested by another process - releasing lock.
+2020-06-10T01:13:02.790-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/executionHistory)
+2020-06-10T01:13:02.790-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache executionHistory.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/executionHistory/executionHistory.bin)
+2020-06-10T01:13:02.790-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/executionHistory).
+2020-06-10T01:13:02.791-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -126900095740098360.
+2020-06-10T01:13:02.792-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id -126900095740098360.
+2020-06-10T01:13:08.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:08.192-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:08.192-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:08.195-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:08.196-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:08.196-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:08.197-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:08.198-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:08.198-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:18.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:18.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:18.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:18.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:18.189-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:18.189-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:18.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:18.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:18.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:28.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:28.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:28.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:28.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:28.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:28.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:28.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:28.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:28.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:38.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:38.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:38.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:38.189-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:38.190-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:38.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:38.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:38.192-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:38.192-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:48.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:48.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:48.184-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:48.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:48.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:48.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:48.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:48.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:48.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:58.199-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:58.200-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:58.201-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:58.202-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:58.203-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:58.204-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:13:58.211-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:13:58.212-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:13:58.213-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:02.511-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on Java compile cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/javaCompile) requested by another process - releasing lock.
+2020-06-10T01:14:02.511-0700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Java compile cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/javaCompile)
+2020-06-10T01:14:02.512-0700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache jarAnalysis.bin (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/javaCompile/jarAnalysis.bin)
+2020-06-10T01:14:02.512-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Java compile cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/javaCompile).
+2020-06-10T01:14:02.518-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 2868889539106600079.
+2020-06-10T01:14:02.518-0700 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 56451 for lock with id 2868889539106600079.
+2020-06-10T01:14:08.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:14:08.185-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.186-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:14:08.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.187-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:14:08.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.188-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-06-10T01:14:08.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.191-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.191-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: other compatible daemons were started and after being idle for 1 minutes and not recently used
+2020-06-10T01:14:08.193-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1591776848192
+2020-06-10T01:14:08.194-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:14:08.194-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.195-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.197-0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build other compatible daemons were started and after being idle for 1 minutes and not recently used
+2020-06-10T01:14:08.197-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to other compatible daemons were started and after being idle for 1 minutes and not recently used. The daemon is running a build: false
+2020-06-10T01:14:08.197-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2020-06-10T01:14:08.197-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2020-06-10T01:14:08.197-0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2020-06-10T01:14:08.197-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:14:08.198-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:14:08.200-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:14:08.201-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.205-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-06-10T01:14:08.206-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2020-06-10T01:14:08.229-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/generated-gradle-jars) was closed 0 times.
+2020-06-10T01:14:08.230-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache artifact cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/modules-2) was closed 48 times.
+2020-06-10T01:14:08.230-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Artifact transforms cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/transforms-2) was closed 7 times.
+2020-06-10T01:14:08.231-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache journal cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/journal-1) was closed 24 times.
+2020-06-10T01:14:08.232-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache file hash cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/fileHashes) was closed 13 times.
+2020-06-10T01:14:08.232-0700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache execution history cache (/Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches/6.1.1/executionHistory) was closed 8 times.
+2020-06-10T01:14:08.260-0700 [DEBUG] [org.gradle.cache.internal.VersionSpecificCacheCleanupAction] Processed version-specific caches at /Users/beauxb/www/dailysoftware.io/_SPICON_APP/SPICONGAME.1.0.1/android/gradle/caches for cleanup in 0.027 secs
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2020-06-10T01:14:08.266-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [65907bf4-e097-45f8-8911-b07ac2537334 port:52402, addresses:[localhost/127.0.0.1]]
+2020-06-10T01:14:08.267-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-06-10T01:14:08.267-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-06-10T01:14:08.270-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
